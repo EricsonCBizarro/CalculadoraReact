@@ -3,6 +3,10 @@
     width: 235px;
     border-radius: 5px;
     overflow: hidden;
-    background-color: red; /* temporario */
+
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-templade-rows: 48px 48px 48px 48px 48px;
+
 }
 
