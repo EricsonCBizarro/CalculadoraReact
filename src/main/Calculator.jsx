@@ -4,7 +4,7 @@ import Button from '../components/Button'
 import Display from '../components/Display'
 
 export default Calculator => {
-
+    
     const [ displayValue, setDisplayValue ] = useState('0');
     const [ clearDisplay, setClearDisplay ] = useState(false);
     const [ clearMemory, setClearMemory ] = useState(false);
